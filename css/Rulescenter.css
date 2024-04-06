@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+}
+.header{
+    display: grid;
+    grid-template-columns: 300px 200px 1fr 100px 100px;
+    align-items: center;
+    padding: 10px 20px;
+}
+.logo{
+    padding-left: 30px;
+}
+.logopic{
+    height: 80px; 
+}
+.mychiricharo{
+    font-size: 25px;
+}
+.signup{
+    font-size: 20px;
+}
+.signup a{
+    color: inherit;
+    text-decoration: inherit;
+}
+.cart{
+    font-size: 20px;
+}
+.rule-body-header{
+    height: 130px;
+    margin: 0px 60px;
+    padding-top: 20px;
+}
+.body-header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+.title{
+    font-size: 20px;
+}
+.searchbar{
+    height: 30px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
+.tabs-nav-list{
+    padding: 10px 20px 10px 20px;
+    height: 60px;
+}
+.tabs{
+    display: inline-block;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+}
+.tabs.active{
+    color:blue;
+    text-decoration: underline;
+}
+.tabs:hover{
+    color: blue;
+    cursor: pointer;
+}
+[data-tab-content]{
+    display: none;
+}
+.active[data-tab-content]{
+    display: block;
+}
+.tabsarticlecontainer{
+    
+    padding-top: 20px;
+}
+.rules{
+    color: rgb(63, 63, 63);
+}
+.rules-main-container{
+    display: flex;
+    justify-content: center;
+}
+.rules-list-container{
+    display: inline-block;
+    width: 310px;
+    
+}
+.rules-list{
+    border:1px solid rgb(196, 196, 196);
+    padding: 15px 10px;
+}
+.rules-list a{
+    color: inherit;
+    text-decoration: inherit;
+  }
+.article{
+    display: inline-block;
+    width: 800px;
+    border:1px solid rgb(196, 196, 196);
+    padding: 20px;
+}
+.privacy-policy-title ,.shopping-policy-title,.Terms-and-Conditions-title{
+    height: 50px;
+    font-size: 20px
+}
+.shopping-policy-title,.Terms-and-Conditions-title{
+    margin-top: 10px;
+}
+.privacy-policy-sub-container ,.shopping-policy-sub-container,.Terms-and-Conditions-sub-container{
+    margin-bottom: 20px;
+}
+.privacy-policy-sub-title,.shopping-policy-sub-title,.Terms-and-Conditions-sub-title{
+    height: 40px;
+}
+dt{
+    font-size: 20px;
+}
+dd{
+    display: block;
+    margin-inline-start: 40px;
+    unicode-bidi: isolate;
+    margin: 10px 0px 10px 40px;
+}
+.about{
+    height: 200px;
+    background-color: rgb(187, 187, 187);
+    margin-top: 10px;
+    text-align: center;
+}
+.about p{
+    height: 20px;
+}

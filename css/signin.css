@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 610px;
+}
+.header{
+    background-color: rgb(75, 75, 75);
+    height: 100px;
+}
+.logo{
+    height: 100px;
+}
+.main-sign-in-body{
+    padding:50px 0px 80px 0px;
+    background-image:url(bruno-kelzer-LvySG1hvuzI-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sign-in-container{
+    margin-top:10px;
+}
+fieldset{
+    padding:20px;
+    margin-bottom:10px;
+}
+.sign-in-page{
+    height: 80px;
+    display:flex;
+    align-items:center;
+    padding-left:200px;
+}
+.sign-in-intro{
+    font-size:35px;
+    color: blue;
+}
+.sign-in-container{
+    display:grid;
+    place-content: center;
+}
+.input{
+    height: 30px;
+    width:300px;
+    padding:5px;
+}
+.email-address,.password{
+    height:60px;
+}
+.forgotpassword{
+    text-align: end;
+    margin-bottom: 5px;
+}
+.sign-up{
+    height:40px;
+}
+.sign-in{
+    margin-bottom:10px;
+}
+.sign-in-button{
+    height: 30px;
+    width:300px;
+}
+#email-address-label,#password-label{
+    font-size:18px;
+}
+.About{
+    display:grid;
+    place-content: center;
+    background-color: rgb(122, 122, 122);
+    height:175px;
+    
+}

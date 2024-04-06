@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgb(75, 75, 75);
+    height: 100px;
+}
+.logo{
+    height: 100px;
+}
+.main-sign-up-body{
+    padding:30px 0px 50px 0px;
+    
+}
+.sign-up-page{
+    height: 30px;
+    padding-left:200px;
+}
+.sign-up-intro{
+    color: blue;
+    font-size: 30px;
+}
+.sign-up-container{
+    margin: 0px 150px 0px 150px;
+    display: flex;
+    justify-content: center;
+}
+.firstcolumun{
+    display: inline-block;
+    height: 450px;
+    width: 200px;
+}
+.secondcolumun{
+    display: inline-block;
+    height: 450px;
+    width: 450px;
+}
+.rows{
+    height: 40px;
+    margin: 8px 5px 8px 0px;
+}
+.country{
+    color: blue;
+    font-size: large;
+    height:50px;
+    display: flex;
+    align-items: center;
+    padding-left: 300px;
+}
+label{
+    font-size:17px;
+    display: flex;
+    justify-content: end;
+    padding-top:10px;
+}
+.email-address{
+    display:flex;
+    align-items: center;
+    margin:0px 30px 0px 36px ;
+    height:50px;
+}
+.password{
+    display:flex;
+    align-items: center;
+    margin: 0px 30px 0px 68px;
+    height: 50px;
+}
+.confirm-password{
+    display:flex;
+    align-items: center;
+    margin: 0px 30px 0px 10px;
+    height: 50px;
+}
+.full-name{
+    display:flex;
+    align-items: center;
+    margin: 0px 30px 0px 62px;
+    height: 50px;
+}
+.tell{
+    display:flex;
+    align-items: center;
+    margin: 0px 30px 0px 106px;
+    height: 50px;
+}
+.input{
+    height:40px;
+    width: 400px;
+    padding-left: 5px;
+    
+}
+.agree{
+    display:flex;
+    align-items: center;
+    place-content: center;
+    margin-top: 10px;
+    height: 70px;
+}
+a{
+    display:contents;
+    
+}
+.agree-checkbox{
+    margin-right:10px;
+}
+.sign-in-already{
+    display:flex;
+    align-items: center;
+    place-content: center;
+    margin-top: 15px;
+}
+.agree-and-register{
+    display:flex;
+    align-items: center;
+    place-content:center;
+    margin-top:10px;
+    height: 50px;
+}
+.agree-and-register-button{
+    background-color: rgb(131, 131, 250);
+    padding: 5px;
+    border-radius: 2px;
+}
+.About{
+    display:grid;
+    place-content: center;
+    background-color: rgb(122, 122, 122);
+    height:175px;
+    
+}
