@@ -9,9 +9,11 @@ body{
 .header{
     background-color: rgb(75, 75, 75);
     height: 100px;
+    padding-left: 100px;
 }
 .logo{
     height: 100px;
+    width: 250px;
 }
 .main-sign-in-body{
     padding:50px 0px 80px 0px;

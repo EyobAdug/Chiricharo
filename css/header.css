@@ -16,12 +16,12 @@
     column-gap: 5px;
     row-gap: 20px;
     justify-content: space-between;
-    height: 85px;
+    height: 100px;
     padding-left: 10px;
 }
 
 .logo {
-  height: 85px;
+  height: 100px;
   width: 250px;
   
 }
