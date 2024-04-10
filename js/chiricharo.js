@@ -3,7 +3,7 @@ const searchInput = document.querySelector('#search-input');
 
 window.addEventListener('scroll', () => {
     if (window.scrollY > 50) {
-        searchContainer.style.top = '1px';
+        searchContainer.style.top = '5px';
         searchInput.style.width = '500px';
     } else {
         searchContainer.style.top = '450px';
