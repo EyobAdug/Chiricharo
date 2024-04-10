@@ -92,9 +92,17 @@
     font-size: 15px;
     cursor: pointer;
   }
+.sign-up-button:hover{
+  background-color: lightyellow;
+  transition: 0.3s;
+}
 .sign-in{
   font-size: 20px;
   color: white;
+}
+.sign-in:hover{
+  color: yellow;
+  transition: 0.3s;
 }
   .fifth-bar {
     display:flex;

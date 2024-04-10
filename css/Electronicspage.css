@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.allcatagories-link,.sign-in-link{
+    text-decoration-line:none;
+}
+.header {
+    
+    top: 0px;
+    left: 0px;
+    right: 0px;
+  }
+  .sub-header {
+      background-color: rgb(94, 94, 94);
+      display: grid;
+      margin-top: 0px;
+      grid-template-columns: 250px  1fr 150px 100px;
+      column-gap: 5px;
+      row-gap: 20px;
+      justify-content: space-between;
+      height: 100px;
+      padding-left: 10px;
+    }
+  
+  .logo {
+    height: 100px;
+    width: 250px;
+    
+  }
+  
+  .searchbar{
+    height: 30px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
+.sign-up{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+.sign-up-button{
+  background-color: rgb(209, 205, 205);
+  border-radius: 20px;
+  padding: 10px;
+  margin-left:15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.sign-up-button:hover{
+  background-color: lightyellow;
+  transition: 0.3s;
+}
+.sign-in{
+  font-size: 20px;
+  color: white;
+}
+.sign-in:hover{
+  color: yellow;
+  transition: 0.3s;
+}
+.fifth-bar {
+  display:flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+.fifth-bar .tooltip{
+  color: rgb(0, 0, 0);
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 35px;
+  padding: 4px;
+  background-color: rgb(182, 181, 181);
+  border-radius: 3px;
+  border-width: 2px;
+  border: solid;
+  opacity: 0;
+  pointer-events: none;
+}
+.fifth-bar:hover .tooltip{
+  opacity: 1;
+}
+.cart {
+  height: 30px;
+  width: 30px;
+  border-radius: 3px;
+  background-color: rgb(94, 94, 94);
+  border: 0px;
+  cursor: pointer;
+}
+.cartpopup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
+.cartpopup-content {
+  position: absolute;
+  top: 340px;
+  right: -150px;
+  height: 500px;
+  width: 300px;
+  transform: translate(-50%, -50%);
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 30px;
+}
+.lower-sub-header {
+  background-color: rgb(94, 94, 94);
+  height: 40px;
+  display:flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.hamburgerpopup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+.hamburgerpopup-content {
+  position: absolute;
+  top: 251px;
+  left: 150px;
+  height: 500px;
+  width: 300px;
+  transform: translate(-50%, -50%);
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.hamburger-menu-button {
+  height: 35px;
+  width: 35px;
+  border-radius: 5px;
+  border-color: grey;
+  position: relative;
+  padding: 5px;
+  margin-left:20px;
+  margin-right:20px;
+  display: flex;
+  align-items:center;
+}
+.hamburger-menu-button .tooltip {
+  color: rgb(0, 0, 0);
+  margin-top:72px;
+  background-color: rgb(182, 181, 181);
+  border-radius: 2px;
+  padding: 4px;
+  font-size: 15px;
+  position: absolute;
+  opacity: 0;
+  border-width: 2px;
+  pointer-events: none;
+  border: solid;
+  border-width: 2px;
+}
+.hamburger-menu-button:hover .tooltip {
+  opacity: 1;
+  transition: opacity 0.15s;
+}
+.hamburger-menu {
+  height: 30px;
+  margin-left: -5px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+.allcatagories-link{
+  color: black;
+}
+.All-Catagories {
+  margin-left: 20px;
+  border-radius: 5px;
+  border-color: grey;
+  position: relative;
+  padding: 2px;
+  font-size: 20px;
+}
+
+.All-Catagories .tooltip {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: -30px;
+  background-color: rgb(182, 181, 181);
+  border: solid;
+  border-width: 2px;
+  padding: 5px;
+  font-size: 15px;
+  opacity: 0;
+  width: 200px;
+}
+.All-Catagories:hover .tooltip{
+  opacity: 1;
+}
+li{
+  padding: 0px;
+  text-align:start;
+  margin: 5px 0px 5px 0px;
+  font-size: 17px;
+}
+.service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left:40px;
+  font-size:20px;
+}
