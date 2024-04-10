@@ -93,7 +93,7 @@
     cursor: pointer;
   }
 .sign-up-button:hover{
-  background-color: lightyellow;
+  background-color: rgb(255, 255, 108);
   transition: 0.3s;
 }
 .sign-in{
@@ -280,7 +280,6 @@
   font-size: 15px;
   opacity: 0;
   width: 200px;
-  pointer-events: none;
 }
 .All-Catagories:hover .tooltip{
   opacity: 1;
