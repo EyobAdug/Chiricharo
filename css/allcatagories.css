@@ -31,59 +31,12 @@
     
   }
   
-  .search-bar {
-      flex:1;
-      height: 30px;
-      width: 500px;
-      padding-left: 10px;
-      font-size: 16px;
-      border: 2px solid rgb(218, 218, 218);
-      border-radius: 20px;
-      box-shadow: inset 1px 2px 3px rgba(0, 0, 0,0.05);
-    }
-    .search-bar::placeholder {
-      font-family: Roboto,Arial;
-      font-size: 16px;
-  
-    }
-    .middle-bar {
-      align-items: center;
-      display: flex;
-    }
-    .search-button {
-      height: 30px;
-      width: 66px;
-      background-color: rgb(240, 240, 240);
-      border-width: 2px;
-      border-style: solid;
-      border-color: rgb(218, 218, 218);
-      border-radius: 20px;
-      
-      margin-left: 5px;
-      margin-right: 10px;
-      position: relative;
-    }
-    .search-button .tooltip {
-      position: absolute;
-      background-color: rgb(138, 138, 138);
-      color: white;
-      padding: 4px;
-      padding-right: 6px;
-      padding-left: 6px;
-      border-radius: 2px;
-      font-size: 12px;
-      bottom: -30px;
-      opacity: 0;
-      transition: opacity 0.15s;
-      pointer-events: none;
-    }
-    .search-button:hover .tooltip {
-      opacity: 1;
-    }
-    .search-icon {
-      height: 25px;
-      margin-top: 2px;
-    }
+  .searchbar{
+    height: 30px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
   .sign-up{
       display:flex;
       align-items: center;
