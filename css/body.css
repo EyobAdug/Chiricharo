@@ -104,7 +104,6 @@ p {
   background-size: cover;
   filter: blur(7px);
   z-index: -1;
-  display: flex;
 }
 .About {
   height: 300px;
