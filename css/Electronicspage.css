@@ -52,20 +52,8 @@ header{
 .sign-up{
   display:flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 150px;
-}
-.sign-up-button{
-  background-color: rgb(209, 205, 205);
-  border-radius: 20px;
-  padding: 10px;
-  margin-left:15px;
-  font-size: 15px;
-  cursor: pointer;
-}
-.sign-up-button:hover{
-  background-color: #10B59D;
-  transition: 0.3s;
 }
 .sign-in{
   font-size: 20px;
@@ -223,7 +211,6 @@ header{
   font-size: 15px;
   opacity: 0;
   width: 200px;
-  pointer-events: none;
 }
 .All-Catagories:hover .tooltip{
   opacity: 1;
