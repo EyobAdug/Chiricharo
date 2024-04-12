@@ -10,6 +10,7 @@
 main{
   min-width: 1280px;
   width: 1349px;
+  max-width: 1440px;
 }
 p {
   margin-top: 5px;
@@ -104,6 +105,7 @@ p {
   height: 450px;
   min-width: 1280px;
   width: 1349px;
+  max-width: 1440px;
   background-image: url(ross-findon-mG28olYFgHI-unsplash.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -114,6 +116,7 @@ p {
 footer{
   min-width: 1280px;
   width: 1349px;
+  max-width: 1440px;
 }
 .About {
   text-align: center;

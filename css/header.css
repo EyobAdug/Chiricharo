@@ -284,6 +284,7 @@
   font-size: 15px;
   opacity: 0;
   width: 200px;
+  pointer-events: none;
 }
 .All-Catagories:hover .tooltip{
   opacity: 1;
