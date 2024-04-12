@@ -29,19 +29,22 @@ header{
     padding-left: 10px;
   }
 .chiricharo{
-  width: 250px;
+  display: flex;
+  padding-left: 20px;
+  width: 300px;
 }
+
 .logo {
-  height: 100px;
-  width: 250px;
-  
+  height: 50px;
 }
 
 .searchbar{
-  height: 30px;
-  width: 600px;
+  height: 41px;
+  width: 351px;
   display: flex;
   align-items: center;
+  border: 2px 0px 2px 2px solid #10b59d;
+  border-radius: 5px 0px 0px 5px;
 }
 .sign-up{
   display:flex;
@@ -58,7 +61,7 @@ header{
   cursor: pointer;
 }
 .sign-up-button:hover{
-  background-color: rgb(255, 255, 108);
+  background-color: #10B59D;
   transition: 0.3s;
 }
 .sign-in{
@@ -66,7 +69,7 @@ header{
   color: white;
 }
 .sign-in:hover{
-  color: yellow;
+  color: #10B59D;
   transition: 0.3s;
 }
 .fifth-bar {

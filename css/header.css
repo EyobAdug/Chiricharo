@@ -97,7 +97,7 @@
     cursor: pointer;
   }
 .sign-up-button:hover{
-  background-color: rgb(255, 255, 108);
+  background-color: #10B59D;
   transition: 0.3s;
 }
 .sign-in{
@@ -105,7 +105,7 @@
   color: white;
 }
 .sign-in:hover{
-  color: yellow;
+  color: #10B59D;
   transition: 0.3s;
 }
   .fifth-bar {
