@@ -39,12 +39,12 @@ header{
 }
 
 .searchbar{
-  height: 41px;
-  width: 351px;
+  height: 43px;
+  width:423px;
   display: flex;
   align-items: center;
-  border: 2px 0px 2px 2px solid #10b59d;
-  border-radius: 5px 0px 0px 5px;
+  border: 2px solid #10b59d;
+  border-radius: 5px 5px 5px 5px;
 }
 .sign-up{
   display:flex;
