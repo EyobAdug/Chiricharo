@@ -9,10 +9,13 @@
 }
 header{
   display: flex;
+  min-width: 1280px;
+  width: 1349px;
 }
 .header {
   display: flex;
-  width: 1440px;
+  min-width: 1280px;
+  width: 1349px;
   flex-direction: column;
   }
 .sub-header {
@@ -232,15 +235,23 @@ li{
   margin-left:40px;
   font-size:20px;
 }
+main{
+  min-width: 1280px;
+  width: 1349px;
+}
 .intro-place{
   height: 170px;
-  
-  top: 150px;
+  display: flex;
+  min-width: 1280px;
+  width: 1349px;
+  flex-direction: column;
 }
 .background{
   position: absolute;
+  display: flex;
   height: 170px;
-  width: 100%;
+  min-width: 1280px;
+  width: 1349px;
   background-image:url(slava-auchynnikau-Hk84A7dWhPQ-unsplash.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -249,6 +260,8 @@ li{
 }
 .catagories-container{
   height: 700px;
+  min-width: 1280px;
+  width: 1349px;
   padding:30px;
   display: grid;
   grid-template-columns: 24% 24% 24% 24%;
@@ -289,8 +302,14 @@ li{
   object-fit: cover;
   border-radius: 5px;
 }
+footer{
+  min-width: 1280px;
+  width: 1349px;
+}
 .about{
   height: 200px;
+  min-width: 1280px;
+  width: 1349px;
   background-color: rgb(177, 177, 177);
   text-align: center;
   padding: 10px;

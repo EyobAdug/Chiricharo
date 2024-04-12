@@ -9,10 +9,12 @@
 }
 header{
   display: flex;
+  
 }
 .header {
   display: flex;
-  width: 1440px;
+  min-width: 1280px;
+  width: 1349px;
   flex-direction: column;
 }
 .sub-header {
