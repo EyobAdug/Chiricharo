@@ -71,11 +71,11 @@ main{
     text-align: center;
 }
 .tabs.active{
-    color:blue;
+    color:#10b59d;
     text-decoration: underline;
 }
 .tabs:hover{
-    color: blue;
+    color: #10b59d;
     cursor: pointer;
 }
 [data-tab-content]{

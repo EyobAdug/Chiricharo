@@ -27,24 +27,25 @@ header{
   column-gap: 5px;
   row-gap: 20px;
   justify-content: space-between;
-  height: 100px;
+  height: 60px;
   padding-left: 10px;
+  padding-top: 10px;
 }
 .chiricharo{
-  width: 250px;
+  width: 300px;
 }
   
 .logo {
-  height: 100px;
-  width: 250px;
-  
+  height: 50px;
 }
 
 .searchbar{
-  height: 30px;
-  width: 600px;
+  height: 43px;
+  width: 423px;
   display: flex;
   align-items: center;
+  border: 2px solid #10b59d;
+  border-radius: 5px 5px 5px 5px;
 }
 .sign-up{
     display:flex;
@@ -61,7 +62,7 @@ header{
   cursor: pointer;
 }
 .sign-up-button:hover{
-  background-color: rgb(255, 255, 108);
+  background-color: #10b59d;
   transition: 0.3s;
 }
 .sign-in{
@@ -69,7 +70,7 @@ header{
   color: white;
 }
 .sign-in:hover{
-  color: yellow;
+  color: #10b59d;
   transition: 0.3s;
 }
 .fifth-bar {
