@@ -6,6 +6,10 @@
 body{
     height: 610px;
 }
+header{
+    min-width: 1280px;
+  width: 1349px;
+}
 .header{
     background-color: rgb(75, 75, 75);
     height: 100px;
@@ -14,6 +18,10 @@ body{
 .logo{
     height: 100px;
     width: 250px;
+}
+main{
+    min-width: 1280px;
+  width: 1349px;
 }
 .main-sign-in-body{
     padding:50px 0px 80px 0px;
@@ -67,6 +75,10 @@ fieldset{
 }
 #email-address-label,#password-label{
     font-size:18px;
+}
+footer{
+    min-width: 1280px;
+  width: 1349px;
 }
 .About{
     display:grid;
