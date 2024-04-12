@@ -9,7 +9,8 @@
 }
 header{
   display: flex;
-  
+  min-width: 1280px;
+  width: 1349px;
 }
 .header {
   display: flex;
@@ -232,4 +233,65 @@ li{
   justify-content: center;
   margin-left:40px;
   font-size:20px;
+}
+main{
+  min-width: 1280px;
+  width: 1349px;
+}
+.intro-place{
+  height: 170px;
+  display: flex;
+  min-width: 1280px;
+  width: 1349px;
+  flex-direction: column;
+}
+.background{
+  position: absolute;
+  display: flex;
+  height: 170px;
+  min-width: 1280px;
+  width: 1349px;
+  background-image:url(finger-touching-fibre-optic-cables.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+.top-catagories-container{
+  background-color: rgb(215, 215, 224);
+  height: 200px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow:8px 8px 5px lightgray;
+}
+.top-catagories-container-title{
+  
+  height: 40px;
+  margin: 0px 15px;
+  display: flex;
+  align-items: center;
+}
+.top-catagories-container-body{
+  height: 160px;
+  
+  display: flex;
+  gap: 20px;
+  padding: 10px 37px;
+}
+.top-catagories-container-each{
+  height: 140px;
+  width: 140px;
+}
+.top-catagories-container-each-img{
+  height: 120px;
+  display: flex;
+  border-radius: 5px;
+}
+.top-catagories-container-each-title{
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
