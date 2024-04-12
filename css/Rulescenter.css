@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    min-width: 1280px;
+  width: 1349px;
+}
 .header{
     display: grid;
     grid-template-columns: 300px 200px 1fr 100px 100px;
@@ -31,6 +35,10 @@
 }
 .cart{
     font-size: 20px;
+}
+main{
+    min-width: 1280px;
+  width: 1349px;
 }
 .rule-body-header{
     height: 130px;
@@ -127,6 +135,10 @@ dd{
     margin-inline-start: 40px;
     unicode-bidi: isolate;
     margin: 10px 0px 10px 40px;
+}
+footer{
+    min-width: 1280px;
+  width: 1349px;
 }
 .about{
     height: 200px;
