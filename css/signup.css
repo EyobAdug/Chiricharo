@@ -15,7 +15,6 @@ header{
 }
 .logo{
     height: 100px;
-    width: 250px;
 }
 main{
     min-width: 1280px;
@@ -31,7 +30,7 @@ main{
     padding-left:200px;
 }
 .sign-up-intro{
-    color: blue;
+    color: #10b59d;
     font-size: 30px;
 }
 .sign-up-container{
@@ -54,7 +53,7 @@ main{
     margin: 8px 5px 8px 0px;
 }
 .country{
-    color: blue;
+    color: #10b59d;
     font-size: large;
     height:50px;
     display: flex;
@@ -131,7 +130,7 @@ a{
     height: 50px;
 }
 .agree-and-register-button{
-    background-color: rgb(131, 131, 250);
+    background-color: #10b59d;
     padding: 5px;
     border-radius: 2px;
 }
@@ -145,5 +144,11 @@ footer{
     place-content: center;
     background-color: rgb(122, 122, 122);
     height:175px;
-    
+}
+.About a{
+    color: inherit;
+  text-decoration: inherit;
+}
+.About a:hover{
+    text-decoration: underline black;
 }

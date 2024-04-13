@@ -3,9 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+a:hover{
+    text-decoration: underline black;
+  }
 header{
-    min-width: 1280px;
-  width: 1349px;
+    min-width: 128540px;
+    width:1349px;
+    max-width: 1440px;
 }
 .header{
     display: grid;

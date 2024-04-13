@@ -18,7 +18,6 @@ header{
 }
 .logo{
     height: 100px;
-    width: 250px;
 }
 main{
     min-width: 1280px;
@@ -47,7 +46,7 @@ fieldset{
 }
 .sign-in-intro{
     font-size:35px;
-    color: blue;
+    color: #10b59d;
 }
 .sign-in-container{
     display:grid;
@@ -89,4 +88,11 @@ footer{
     background-color: rgb(122, 122, 122);
     height:175px;
     
+}
+.About a{
+    color: inherit;
+  text-decoration: inherit;
+}
+.About a:hover{
+    text-decoration: underline black;
 }
