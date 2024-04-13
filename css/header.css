@@ -2,7 +2,7 @@
     text-decoration-line:none;
 }
 .header {
-  position: fixed;
+  
   top: 0px;
   left: 0px;
   right: 0px;
@@ -10,7 +10,10 @@
   
 }
 .sub-header {
-    
+  min-width: 1280px;
+  width: 100%;
+  max-width: 1440px;
+    position: fixed;
     display: grid;
     margin-top: 0px;
     grid-template-columns: 320px  1fr 150px 100px;

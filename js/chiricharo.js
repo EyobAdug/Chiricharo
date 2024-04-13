@@ -3,7 +3,7 @@ const searchInput = document.querySelector('#search-input');
 
 window.addEventListener('scroll', () => {
     if (window.scrollY > 50) {
-        searchContainer.style.top = '15px';
+        searchContainer.style.top = '10px';
         searchInput.style.width = '500px';
     } else {
         searchContainer.style.top = '450px';
@@ -37,7 +37,7 @@ const opencartPopupButton = document.getElementById("open-cartpopup");
 
 
 function changeBg(){
-  var header = document.getElementById('header');
+  var header = document.getElementById('sub-header');
   var scrollValue = window.scrollY;
   if(scrollValue < 150){
       header.classList.remove('bgcolor');
