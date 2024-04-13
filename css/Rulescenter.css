@@ -11,9 +11,10 @@ a:hover{
     text-decoration: underline black;
   }
 header{
-    min-width: 128540px;
-    width:1349px;
+    min-width: 1280px;
+    width: 100%;
     max-width: 1440px;
+    margin: 0 auto;
 }
 .header{
     display: grid;
@@ -21,11 +22,16 @@ header{
     align-items: center;
     padding: 10px 20px;
 }
+.chiricharo{
+    display: flex;
+    padding-left: 20px;
+    width: 300px;
+  }
 .logo{
-    padding-left: 30px;
+    height: 50px;
 }
 .logopic{
-    height: 80px; 
+    height: 50px; 
 }
 .mychiricharo{
     font-size: 25px;
@@ -38,7 +44,7 @@ header{
     text-decoration: inherit;
 }
 .signup:hover{
-    color: yellow;
+    color: #10b59d;
     transition: 0.3s;
 }
 .cart{
@@ -46,7 +52,9 @@ header{
 }
 main{
     min-width: 1280px;
-  width: 1349px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .rule-body-header{
     height: 130px;
@@ -146,7 +154,9 @@ dd{
 }
 footer{
     min-width: 1280px;
-  width: 1349px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .about{
     height: 200px;

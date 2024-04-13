@@ -14,13 +14,14 @@ a:hover{
 header{
   display: flex;
   min-width: 1280px;
-  width: 1349px;
+  width: 100%;
   max-width: 1440px;
+  margin: 0 auto;
 }
 .header {
   display: flex;
   min-width: 1280px;
-  width: 1349px;
+  width: 100%;
   max-width: 1440px;
   flex-direction: column;
   }
@@ -245,14 +246,15 @@ li{
 }
 main{
   min-width: 1280px;
-  width: 1349px;
+  width: 100%;
   max-width: 1440px;
+  margin: 0 auto;
 }
 .intro-place{
   height: 170px;
   display: flex;
   min-width: 1280px;
-  width: 1349px;
+  width: 100%;
   max-width: 1440px;
   flex-direction: column;
 }
@@ -261,7 +263,7 @@ main{
   display: flex;
   height: 170px;
   min-width: 1280px;
-  width: 1349px;
+  width: 100%;
   max-width: 1440px;
   background-image:url(slava-auchynnikau-Hk84A7dWhPQ-unsplash.jpg);
   background-position: center;
@@ -272,7 +274,7 @@ main{
 .catagories-container{
   height: 700px;
   min-width: 1280px;
-  width: 1349px;
+  width: 100%;
   max-width: 1440px;
   padding:30px;
   display: grid;
@@ -316,13 +318,14 @@ main{
 }
 footer{
   min-width: 1280px;
-  width: 1349px;
+  width: 100%;
   max-width: 1440px;
+  margin: 0 auto;
 }
 .about{
   height: 200px;
   min-width: 1280px;
-  width: 1349px;
+  width:100%;
   max-width: 1440px;
   background-color: rgb(177, 177, 177);
   text-align: center;
