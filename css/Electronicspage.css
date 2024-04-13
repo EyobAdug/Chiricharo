@@ -323,12 +323,15 @@ main{
 }
 .for-you-list{
   display: flex;
+  justify-content: space-between;
+  min-width: 1280px;
+  max-width: 1440px;
   margin: 0px 20px;
   background-color: lightgray;
-  gap: 14.1px;
+  row-gap: 13px;
   flex-wrap: wrap;
   border-radius: 10px 10px 10px 10px;
-  padding: 1.3px;
+  padding: 1px;
 }
 .for-you-products{
   height: 400px;
