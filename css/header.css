@@ -1,8 +1,23 @@
 .allcatagories-link,.sign-in-link{
     text-decoration-line:none;
 }
+header{
+  height: 60px;
+}
+.relative {
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure header stays above other content */
+}
 .header {
-  
+  height: 60px;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -13,7 +28,6 @@
   min-width: 1280px;
   width: 100%;
   max-width: 1440px;
-    position: fixed;
     display: grid;
     margin-top: 0px;
     grid-template-columns: 320px  1fr 150px 100px;

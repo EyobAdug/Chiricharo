@@ -37,11 +37,15 @@ const opencartPopupButton = document.getElementById("open-cartpopup");
 
 
 function changeBg(){
-  var header = document.getElementById('sub-header');
+  var header = document.getElementById('header');
   var scrollValue = window.scrollY;
-  if(scrollValue < 150){
+  if(scrollValue < 100){
+    header.classList.remove('fixed');
+    header.classList.add('relative');
       header.classList.remove('bgcolor');
     } else{
+      header.classList.remove('relative');
+    header.classList.add('fixed');
       header.classList.add('bgcolor');
     }
 }

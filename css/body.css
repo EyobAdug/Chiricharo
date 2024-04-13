@@ -3,6 +3,12 @@
   padding: 0px;
   box-sizing: border-box;
 }
+html{
+  min-width: 1280px;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
 .bg{
   min-width: 1280px;
   width: 100%;
@@ -20,6 +26,10 @@
   color: black;
 }
 .body {
+  min-width: 1280px;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
   background-color: rgb(215, 215, 224);
   
 }
@@ -28,7 +38,6 @@ main{
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  padding-top: 60px;
 }
 a{
   color: inherit;
