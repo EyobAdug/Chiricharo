@@ -3,9 +3,25 @@
   padding: 0px;
   box-sizing: border-box;
 }
+.bg{
+  min-width: 1280px;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 700px;
+  background-image:url(bruno-kelzer-LvySG1hvuzI-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgcolor{
+  transform: all 1s;
+  background-color: rgb(94, 94, 94);
+  color: black;
+}
 .body {
   background-color: rgb(215, 215, 224);
-  padding-top: 100px;
+  
 }
 main{
   min-width: 1280px;

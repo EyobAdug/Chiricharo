@@ -7,9 +7,10 @@
   left: 0px;
   right: 0px;
   z-index: 1;
+  
 }
 .sub-header {
-    background-color: rgb(94, 94, 94);
+    
     display: grid;
     margin-top: 0px;
     grid-template-columns: 320px  1fr 150px 100px;
@@ -89,7 +90,7 @@
     justify-content: space-between;
   }
   .sign-up-button{
-    background-color: rgb(209, 205, 205);
+    background-color:transparent;
     border-radius: 20px;
     padding: 10px;
     margin-left:15px;
@@ -134,7 +135,7 @@
     height: 30px;
     width: 30px;
     border-radius: 3px;
-    background-color: rgb(94, 94, 94);
+    background-color:transparent;
     border: 0px;
     cursor: pointer;
   }
@@ -174,7 +175,6 @@
     font-size: 30px;
   }
 .lower-sub-header {
-    background-color: rgb(94, 94, 94);
     height: 40px;
     display:flex;
     align-items: center;

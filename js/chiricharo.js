@@ -34,3 +34,15 @@ const opencartPopupButton = document.getElementById("open-cartpopup");
       closehamburgerPopupButton.addEventListener("click", () => {
         hamburgerpopup.style.display = "none";
       });
+
+
+function changeBg(){
+  var header = document.getElementById('header');
+  var scrollValue = window.scrollY;
+  if(scrollValue < 150){
+      header.classList.remove('bgcolor');
+    } else{
+      header.classList.add('bgcolor');
+    }
+}
+window.addEventListener('scroll', changeBg);
