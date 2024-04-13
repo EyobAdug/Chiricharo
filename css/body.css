@@ -9,8 +9,9 @@
 }
 main{
   min-width: 1280px;
-  width: 1349px;
+  width: 100%;
   max-width: 1440px;
+  margin: 0 auto;
 }
 a{
   color: inherit;
