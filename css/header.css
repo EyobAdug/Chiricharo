@@ -91,6 +91,7 @@
   }
   .sign-up-button{
     background-color:transparent;
+    border:0px;
     border-radius: 20px;
     padding: 10px;
     margin-left:15px;
