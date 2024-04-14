@@ -326,12 +326,12 @@ main{
   justify-content: space-between;
   min-width: 1280px;
   max-width: 1440px;
-  margin: 0px 20px;
+  margin: 0px;
   background-color: lightgray;
   row-gap: 13px;
   flex-wrap: wrap;
   border-radius: 10px 10px 10px 10px;
-  padding: 1px;
+  padding:1px 10px;
 }
 .for-you-products{
   height: 400px;
