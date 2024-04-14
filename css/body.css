@@ -52,12 +52,17 @@ p {
   }
 .industry-list{
   height:400px;
-  margin: 40px 10px 40px 10px;
+  margin: 40px 0px;
+  display: flex;
+  justify-content: center;
 }
 .industry-list-container{
   height: 400px;
   display: grid;
-  grid-template-columns: 100px  1fr 100px;
+  grid-template-columns: 100px  1060px 100px;
+  min-height: 1280px;
+  width: 1260px;
+  max-width: 1440px;
 }
 .list-pre{
   height: 400px;
@@ -66,13 +71,26 @@ p {
   align-items: center;
   justify-content: center;
 }
+.list-pre i{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
 .pre-img{
   height: 80px;
 }
 .next-slick-list{
   height: 400px;
   padding: 0px 3px 0px 3px;
-  display: flex;
+  display: grid;
+  grid-auto-flow: column;
+  overflow: hidden;
 }
 .items-list{
   display: inline-block;
@@ -110,6 +128,16 @@ p {
   display: grid;
   align-items: center;
   justify-content: center;
+}
+.list-after i{
+  display: flex;
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
 }
 .after-img{
   height: 80px;
