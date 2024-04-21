@@ -139,9 +139,9 @@ header{
     margin-top: 70px;
     margin-left: 35px;
     padding: 4px;
-    background-color: rgb(182, 181, 181);
+    background-color: rgba(182, 181, 181, 0.699);
     border-radius: 3px;
-    border-width: 2px;
+    border-width: 1px;
     border: solid;
     opacity: 0;
     pointer-events: none;
@@ -235,7 +235,7 @@ header{
 .hamburger-menu-button .tooltip {
   color: rgb(0, 0, 0);
   margin-top:72px;
-  background-color: rgb(182, 181, 181);
+  background-color: rgba(182, 181, 181, 0.767);
   border-radius: 2px;
   padding: 4px;
   font-size: 15px;
@@ -295,7 +295,7 @@ header{
   position: absolute;
   margin-top: 10px;
   margin-left: -30px;
-  background-color: rgb(182, 181, 181);
+  background-color: rgba(182, 181, 181, 0.74);
   border: solid;
   border-width: 2px;
   padding: 5px;
