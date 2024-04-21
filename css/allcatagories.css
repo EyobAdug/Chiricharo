@@ -273,11 +273,16 @@ main{
   background-size: cover;
   z-index: -1;
 }
-.catagories-container{
+.categories{
   min-width: 1280px;
   width: 100%;
   max-width: 1440px;
-  padding:13px;
+  padding:15px;
+  display: flex;
+  justify-content: center;
+}
+.catagories-container{
+  width: 1280px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
