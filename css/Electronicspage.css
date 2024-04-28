@@ -222,7 +222,7 @@ header{
   font-size: 20px;
 }
 
-.All-Catagories .tooltip {
+.All-Catagories .A-tooltip {
   position: absolute;
   margin-top: 10px;
   margin-left: -30px;
@@ -233,11 +233,21 @@ header{
   font-size: 15px;
   opacity: 0;
   width: 200px;
+  visibility: hidden;
 }
-.All-Catagories:hover .tooltip{
+.All-Catagories:hover .A-tooltip{
   opacity: 1;
-  display: block;
+  visibility: visible;
 }
+.All-Catagories .A-tooltip:hover {
+  visibility: visible;
+  opacity: 1;
+}
+.All-Catagories .A-tooltip::after{
+  position: absolute;
+  content: "";
+}
+
 li{
   padding: 0px;
   text-align:start;
