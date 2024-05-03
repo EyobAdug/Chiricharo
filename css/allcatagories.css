@@ -22,13 +22,13 @@ header{
 }
 .header {
   display: flex;
+  background-color: lightgray;
   min-width: 1280px;
   width: 100%;
   max-width: 1440px;
   flex-direction: column;
   }
 .sub-header {
-  background-color: rgb(94, 94, 94);
   display: flex;
   margin-top: 0px;
   column-gap: 5px;
@@ -53,7 +53,7 @@ header{
   display: flex;
   align-items: center;
   border: 2px solid #10b59d;
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 5px;
 }
 .sign-up{
     display:flex;
@@ -62,11 +62,12 @@ header{
     width: 150px;
   }
 .sign-up-button{
-  background-color: rgb(209, 205, 205);
+  background-color: lightgrey;
+  border: 0px ;
   border-radius: 20px;
   padding: 10px;
   margin-left:15px;
-  font-size: 15px;
+  font-size: 16px;
   cursor: pointer;
 }
 .sign-up-button:hover{
@@ -75,7 +76,6 @@ header{
 }
 .sign-in{
   font-size: 20px;
-  color: white;
 }
 .sign-in:hover{
   color: #10b59d;
@@ -108,7 +108,7 @@ header{
   height: 30px;
   width: 30px;
   border-radius: 3px;
-  background-color: rgb(94, 94, 94);
+  background-color: lightgrey;
   border: 0px;
   cursor: pointer;
 }
@@ -142,7 +142,6 @@ header{
   font-size: 30px;
 }
 .lower-sub-header {
-  background-color: rgb(94, 94, 94);
   height: 40px;
   display:flex;
   align-items: center;
