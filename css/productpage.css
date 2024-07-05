@@ -3,7 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+  background-color: lightgray;
+  min-width: 1280px;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
 a{
   color: inherit;
   text-decoration: inherit;
@@ -20,69 +26,64 @@ header{
 }
 .header {
   display: flex;
-  background-color:lightgray;
+  background-color: lightgray;
   min-width: 1280px;
   width: 100%;
   max-width: 1440px;
   flex-direction: column;
-}
-.sub-header {
-    display: flex;
-    margin-top: 0px;
-    column-gap: 5px;
-    row-gap: 20px;
-    justify-content: space-between;
-    height: 60px;
-    padding-left: 10px;
-    padding-top: 10px;
   }
-.chiricharo{
+.sub-header {
   display: flex;
-  padding-left: 20px;
-  width: 300px;
+  margin-top: 0px;
+  column-gap: 5px;
+  row-gap: 20px;
+  justify-content: space-between;
+  height: 60px;
+  padding-left: 10px;
+  padding-top: 10px;
 }
-
+.chiricharo{
+  width: 300px;
+  padding-left: 20px;
+}
+  
 .logo {
   height: 50px;
 }
 
 .searchbar{
   height: 43px;
-  width:423px;
+  width: 423px;
   display: flex;
   align-items: center;
-  border:2px solid #10b59d;
-  border-radius: 5px 5px 5px 5px;
+  border: 2px solid #10b59d;
+  border-radius: 5px;
 }
 .sign-up{
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  width: 150px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+  }
+.sign-up-button{
+  background-color: lightgrey;
+  border: 0px ;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left:15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.sign-up-button:hover{
+  background-color: #10b59d;
+  transition: 0.3s;
 }
 .sign-in{
   font-size: 20px;
-  position: relative;
 }
-.sign-in-link{
-}
-.sign-in-link:hover{
-  color: #10B59D;
+.sign-in:hover{
+  color: #10b59d;
   transition: 0.3s;
-}
-.sign-in .sign-in-tooltip{
-  position: absolute;
-  height: 200px;
-  width: 200px;
-  top: 40px;
-  left: -60px;
-  background-color: lightgrey;
-  border-radius: 5px;
-  opacity: 0;
-  pointer-events: none;
-}
-.sign-in:hover .sign-in-tooltip{
-  opacity: 1;
 }
 .fifth-bar {
   display:flex;
@@ -109,8 +110,8 @@ header{
 .cart {
   height: 30px;
   width: 30px;
-  background-color: lightgrey;
   border-radius: 3px;
+  background-color: lightgrey;
   border: 0px;
   cursor: pointer;
 }
@@ -219,7 +220,7 @@ header{
   font-size: 20px;
 }
 
-.All-Catagories .A-tooltip {
+.All-Catagories .tooltip {
   position: absolute;
   margin-top: 10px;
   margin-left: -30px;
@@ -230,21 +231,10 @@ header{
   font-size: 15px;
   opacity: 0;
   width: 200px;
-  visibility: hidden;
 }
-.All-Catagories:hover .A-tooltip{
-  opacity: 1;
-  visibility: visible;
-}
-.All-Catagories .A-tooltip:hover {
-  visibility: visible;
+.All-Catagories:hover .tooltip{
   opacity: 1;
 }
-.All-Catagories .A-tooltip::after{
-  position: absolute;
-  content: "";
-}
-
 li{
   padding: 0px;
   text-align:start;
@@ -259,146 +249,73 @@ li{
   font-size:20px;
 }
 main{
-  min-width: 1280px;
-  width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
+    min-width: 1280px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
 }
-.intro-place{
-  height: 170px;
-  display: flex;
-  min-width: 1280px;
-  width: 100%;
-  max-width: 1440px;
+.layout{
+    display: inline-block;
+    width: 1000px;
+    background-color: white;
+}
+.innerlayout{
+  display: grid;
+  grid-template-columns: 80px 915px;
+  gap: 5px;
+}
+.layout-left{
+  background-color: rebeccapurple;
+  display: inline-flex;
+  justify-content: center;
+  width: 80px;
+  height: 500px;
   flex-direction: column;
 }
-.background{
-  position: absolute;
-  display: flex;
-  height: 170px;
-  min-width: 1280px;
-  width: 100%;
-  max-width: 1440px;
-  background-image:url(finger-touching-fibre-optic-cables.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: -1;
-}
-.top-catagories-container{
-  background-color: rgb(215, 215, 224);
-  height: 200px;
-  margin: 15px;
-  display: flex;
-  flex-direction: column;
-  border-radius: 10px;
-  box-shadow:8px 8px 5px lightgray;
-}
-.top-catagories-container-title{
-  
-  height: 40px;
-  margin: 0px 15px;
-  display: flex;
-  align-items: center;
-}
-.top-catagories-container-body{
-  height: 160px;
-  
-  display: flex;
-  gap: 20px;
-  padding: 10px 37px;
-}
-.top-catagories-container-each{
-  height: 140px;
-  width: 140px;
-}
-.top-catagories-container-each-img{
-  height: 120px;
-  display: flex;
-  border-radius: 5px;
-}
-.top-catagories-container-each-title{
-  height: 20px;
+.list-item{
+  height: 80px;
+  width: 80px;
+  background-color: aqua;
+  margin-bottom: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.for-you{
-  height: 30px;
-  margin: 30px 40px 20px;
-  font-size: 25px;
-  font-weight: bold;
+.layout-right{
+  display: inline-flex;
+  width: 915px;
 }
-.for-you-list{
+.product-img{
+  width: 500px;
+  padding-top: 10px;
+}
+.product-img img{
+  width: 450px;
+}
+.layout-overview{
+  padding-left: 10px;
   display: flex;
-  justify-content: space-between;
-  min-width: 1280px;
-  max-width: 1440px;
-  margin: 0px;
-  background-color: lightgray;
-  row-gap: 13px;
-  flex-wrap: wrap;
-  border-radius: 10px 10px 10px 10px;
-  padding:1px 10px;
+  flex-direction: column;
+  width: 415px;
+  height: 800px;
 }
-.for-you-list a{
-  text-decoration: none;
-}
-.for-you-products{
-  height: 400px;
-  width: 250px;
+.product-title{
   background-color: white;
-  border-radius: 10px 10px 10px 10px;
-}
-.for-you-products-img{
-  height: 250px;
-  border-radius: 10px 10px 0px 0px;
-}
-.for-you-products-img img{
-  height: 250px;
-  object-fit: cover;
-  border-radius: 10px 10px 0px 0px;
-}
-.for-you-products-status{
-  height: 150px;
-  padding: 5px;
-}
-.for-you-products-name{
   display: flex;
-  height: 40px;
-  line-height: 1.3;
-  padding-left: 5px;
-}
-.for-you-products-name span{
-  white-space:wrap;
   overflow: hidden;
+  white-space:wrap;
   text-overflow: ellipsis;
 }
-.for-you-products-rating{
-  display: flex;
-  align-items: center;
-  height: 25px;
-  padding-left: 5px;
+.product-details{
+  
+  background-color: #2e4fe0;
 }
-.for-you-products-price{
-  display: flex;
-  align-items: center;
-  height: 40px;
-  padding-left: 5px;
-}
-.for-you-products-addtocart{
-  display: flex;
-  align-items: center;
-  height: 35px;
-  padding-left: 5px;
-}
-.for-you-products-addtocart button{
-  height: 30px;
-  padding: 8px;
-  background-color:#10B59D;
-  border: 0px;
-  border-radius: 15px;
-  font-size: 13px;
+.cart-layout{
+    display: inline-block;
+    height: 100px;
+    width: 250px;
+    background-color: white;
+    padding: 5px; 
 }
 footer{
   min-width: 1280px;

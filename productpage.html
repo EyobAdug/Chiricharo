@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products Page</title>
+    <link rel="stylesheet" href="css/productpage.css" />
+    <script src="js/chiricharo.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="sub-header">
+          <div class="chiricharo">
+            <a href="chiricharo.html">
+              <img
+                class="logo"
+                src="img/logo-photo_2024-04-12_18-19-18-removebg-preview.png"
+                alt="chiricharo logo"
+            /></a>
+          </div>
+
+          <div
+            style="
+              display: flex;
+              flex: 1;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <div class="searchbar">
+              <span
+                ><input
+                  style="
+                    width: 350px;
+                    height: 39px;
+                    border: 0px;
+                    border-radius: 5px 0px 0px 5px;
+                    padding-left: 10px;
+                  "
+                  type="text"
+                  placeholder="Search the products"
+              /></span>
+              <span
+                style="
+                  font-size: large;
+                  width: 70px;
+                  height: 39px;
+                  background-color: lightgrey;
+                  border-radius: 0px 5px 5px 0px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  cursor: pointer;
+                "
+                >Search</span
+              >
+            </div>
+          </div>
+          <div class="sign-up">
+            <a href="signin.html" class="sign-in-link"
+              ><span class="sign-in">Sign in</span></a
+            >
+            <a href="signup.html"
+              ><button class="sign-up-button">Sign up</button></a
+            >
+          </div>
+          <div class="fifth-bar">
+            <button class="cart" id="open-cartpopup">
+              <img class="cart" src="icos/download.png" alt="cart image" />
+            </button>
+
+            <div class="cartpopup" id="cartpopup">
+              <div class="cartpopup-content">
+                <span class="close" id="close-cartpopup">&times;</span>
+                <h3 style="text-align: center">Products on cart</h3>
+              </div>
+            </div>
+            <div class="tooltip">Cart</div>
+          </div>
+        </div>
+        <div class="lower-sub-header">
+          <div class="hamburger-menu-button">
+            <img
+              class="hamburger-menu"
+              id="open-hamburgerpopup"
+              src="icos/hamburger-menu.svg"
+              alt="hamburger-menu"
+            />
+
+            <div class="tooltip">Menu</div>
+          </div>
+          <div class="hamburgerpopup" id="hamburgerpopup">
+            <div class="hamburgerpopup-content">
+              <span class="close" id="close-hamburgerpopup">&times;</span>
+              <h3 style="text-align: center">hello sign in</h3>
+              <div>about us</div>
+            </div>
+          </div>
+          <div class="All-Catagories">
+            <a href="allcatagories.html" class="allcatagories-link"
+              ><span class="allcatagories">All Catagories</span></a
+            >
+            <div class="tooltip">
+              <ul style="padding-left: 15px">
+                <a href="Electronicspage.html"><li>Electronics</li></a>
+                <li>Fasion-Beauty</li>
+                <li>Sport</li>
+                <li>Industrial</li>
+                <li>Health & Persenal Care</li>
+              </ul>
+            </div>
+          </div>
+          <div class="service">Service</div>
+        </div>
+      </div>
+    </header>
+    <hr />
+    <main>
+      <div style="display: flex; gap: 15px; justify-content: center">
+        <div class="layout">
+          <div class="innerlayout">
+            <div class="layout-left">
+              <span class="list-item">hh</span>
+              <span class="list-item">hh</span>
+              <span class="list-item">hh</span>
+              <span class="list-item">hh</span>
+              <span class="list-item">hh</span>
+              <span class="list-item">hh</span>
+            </div>
+            <div class="layout-right">
+              <div class="product-img">
+                <img src="img/images__1_-removebg-preview.png" alt="" />
+              </div>
+              <div class="layout-overview">
+                <div class="product-title">
+                  <h1>
+                    Hot and best iphone 15 pro max 8gb+256gb original 6.7inch
+                    5000mAh face id
+                  </h1>
+                </div>
+                <div class="product-rating">4.3 out of 5 stars</div>
+                <div class="product-details">About this item YOUR CONTENT,</div>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div>dssdklmsk</div>
+        </div>
+        <div class="cart-layout"></div>
+      </div>
+      <div
+        id="backtotop"
+        style="
+          background-color: rgb(42, 42, 73);
+          display: flex;
+          justify-content: center;
+          margin-top: 5px;
+          height: 20px;
+        "
+      >
+        <a style="color: #10b59d" href="#">Back to top</a>
+      </div>
+    </main>
+  </body>
+  <footer>
+    <div class="About" id="About">
+      <p>Creater: chiricharo.com</p>
+      <p>Phone number:</p>
+      <p>Fox Box:</p>
+      <p>
+        Policies |
+        <a href="Rulescenter.html">Terms of use</a>
+        | Privacy policy
+      </p>
+      <a href="chiricharo.html"><p>Chiricharo.com</p> </a>
+      <p>&copy;2024 chiricharo.com.All right reserved.</p>
+    </div>
+  </footer>
+</html>
