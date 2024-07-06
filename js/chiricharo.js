@@ -122,3 +122,47 @@ nextslicklist.addEventListener("scroll",infiniteScroll);
 industrylistcontainer.addEventListener("mouseenter", () => clearTimeout(timeoutId)); 
 industrylistcontainer.addEventListener("mouseleave", autoPlay); 
 
+
+
+
+      document.getElementById("searchButton").addEventListener("click", function() {
+        performSearch();
+      });
+
+      document.getElementById("Search").addEventListener("keydown", function(event) {
+        if (event.key === "Enter") {
+          performSearch();
+        }
+      });
+
+      document.getElementById("Search").addEventListener("input", function(event) {
+        if (event.target.value === "") {
+          resetPage();
+        }
+      });
+
+      function performSearch() {
+        const query = document.getElementById("Search").value.trim();
+        if (query !== "") {
+          // Perform your search logic here
+          console.log("Searching for:", query);
+          // For demonstration purposes, let's filter the products
+          const products = document.querySelectorAll(".for-you-products");
+          products.forEach(product => {
+            if (product.getAttribute("data-name").toLowerCase().includes(query.toLowerCase())) {
+              product.style.display = "block";
+            } else {
+              product.style.display = "none";
+            }
+          });
+        }
+      }
+
+      function resetPage() {
+        // Reset the page to its original state
+        const products = document.querySelectorAll(".for-you-products");
+        products.forEach(product => {
+          product.style.display = "block";
+        });
+      }
+    
